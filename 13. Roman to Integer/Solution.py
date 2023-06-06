@@ -27,3 +27,14 @@ class Solution:
                 return n+d[s[-1]]
         else:
             return d[s[-1]]
+
+        
+        
+k=Solution()
+v1='II'
+v2='XXVII'
+val1=k.romanToInt(v1)
+val2=k.romanToInt(v2)
+
+v3="MCMXCIV"
+val3=k.romanToInt(v3)
