@@ -24,3 +24,11 @@ class Solution:
             s=str(a)+'->'+str(b)
             r.append(s)
         return r
+
+k=Solution()
+s=k.summaryRanges
+t=[[0,1,2,4,5,7],
+   [0,2,3,4,6,8,9],
+   [0,5,9]]
+t1=[[j for j in i] for i in t]
+v=[s(i) for i in t]
